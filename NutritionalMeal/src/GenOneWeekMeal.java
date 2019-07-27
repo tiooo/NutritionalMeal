@@ -689,7 +689,7 @@ public class GenOneWeekMeal {
 				new Material[] {new Material(Food.niurouxian, 1), new Material(Food.peigen, 1)},
 				new String[] {"啤酒"});
 		allDishes.put(hanbao.getName(), hanbao);
-//		// template
+		// template
 //		Dish template = new Dish("", 0, 1, 0.5f, 15,"", new Material[] {new Material(Food.wuhuarou, 1)},new String[] {""});
 //		allDishes.put(template.getName(), template);
 	}
