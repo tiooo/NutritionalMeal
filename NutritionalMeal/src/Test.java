@@ -5,4 +5,9 @@ public class Test {
 	public static void main(String[] args) {
 		
 	}
+	
+	// brannch function
+	public static void thisIsBranchFunction() {
+		
+	}
 }
