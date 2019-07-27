@@ -11,5 +11,7 @@ public class Test {
 	public static void thisIsBranchFunction() {
 		// 
 		int branch = 10000;
+		// brance 222222
+		int branch222 = 234234;
 	}
 }
