@@ -8,6 +8,7 @@ public class Test {
 	
 	// brannch function
 	public static void thisIsBranchFunction() {
-		
+		// 
+		int branch = 10000;
 	}
 }
