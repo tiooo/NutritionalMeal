@@ -14,4 +14,7 @@ public class Test {
 		// brance 222222
 		int branch222 = 234234;
 	}
+	
+	public void newFuctionOfBranchonline() {
+	}
 }
