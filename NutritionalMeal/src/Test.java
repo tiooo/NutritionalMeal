@@ -12,4 +12,8 @@ public class Test {
 		// 
 		int branch = 10000;
 	}
+	// new funcion from online
+	public void newFunctionFromOnline() {
+	
+	}
 }
