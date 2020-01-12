@@ -689,8 +689,26 @@ public class GenOneWeekMeal {
 				new Material[] {new Material(Food.niurouxian, 1), new Material(Food.peigen, 1)},
 				new String[] {"啤酒"});
 		allDishes.put(hanbao.getName(), hanbao);
+		// 羊肉串
+		Dish angeauBaton = new Dish("羊肉串", 0, 1, 1, 15,
+				"adonis买新鲜的羊肩肉，每人半斤分量，以下按3斤羊肉准备，切成块，块的大小根据孩子和大人的要求分开。挤入一块生姜汁，一个洋葱切小快放入，放入适量的盐，孜然粉，油，搅拌均匀。腌制1小时",
+				new Material[] {new Material(Food.yangrou, 3), new Material(Food.ziran, 1)},
+				new String[] {"啤酒"});
+		// 核桃酪
+		allDishes.put(angeauBaton.getName(), angeauBaton);
+		Dish hetaolao = new Dish("核桃酪", 0, 0, 0, 0
+				,"红枣洗净蒸，蒸透后加点水捏烂，过滤。江米泡3个小时。用适量的去皮核桃和水一起磨细，加冰糖用小火煮。用非铁锅煮。江米容易糊，煮的时候要不停搅动。煮到完全成熟，再加枣泥，呈现细腻稠滑状态时，关火", 
+				new Material[] {new Material(Food.zao, 1),new Material(Food.hetao, 1),new Material(Food.jiangmi, 1),new Material(Food.huangbingtang, 1)},
+				new String[] {""});
+		allDishes.put(hetaolao.getName(), hetaolao);
+		// 大盘鸡
+		Dish dapanji = new Dish("大盘鸡", 5, 5, 2, 7,
+				"土豆切块加酱油和盐煮，要煮面。两个琵琶腿， 切好后盐，黄酒，胡椒粉， 花椒粉，玉米淀粉腌制一下。葱姜切好。豆瓣酱，新疆线辣椒，花椒。炒糖色。葱姜花椒下锅炒香，加入鸡。慢慢扁香鸡。出油后下糖色。下豆瓣酱，花椒面。加水，汤汁宽一点"
+				+ "下盐，酱油。放新疆线辣椒。煮一会后放土豆 出锅前蒜拍好，斩一下。等汤汁粘稠后，下葱，蒜，青辣椒"
+				, new Material[] {new Material(Food.pipatui, 2), new Material(Food.tudou, 3), new Material(Food.honglalajiao, 1), new Material(Food.qingjiao, 1)},new String[] {""});
+		allDishes.put(dapanji.getName(), dapanji);
 		// template
-//		Dish template = new Dish("", 0, 1, 0.5f, 15,"", new Material[] {new Material(Food.wuhuarou, 1)},new String[] {""});
+//		Dish template = new Dish("", 0, 1, 1, 15,"", new Material[] {new Material(Food.wuhuarou, 1)},new String[] {""});
 //		allDishes.put(template.getName(), template);
 	}
 }

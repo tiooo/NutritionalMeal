@@ -93,9 +93,13 @@ public enum Food {
 	shalacai("shalacai","", "沙拉菜"),
 	shalajiang("shalajiang","","沙拉酱"),
 	peigen("peigen","bacon","培根"),
-	
-	
-	
+	ziran("ziran","cumin", "孜然"),
+	jiangmi("jiangmi","", "江米(糯米)"),
+	huangbingtang("huangbingtang","", "黄冰糖"),
+	hetao("hetao","", "核桃"),
+	zao("zao","","枣"),
+	pipatui("pipatui", "", "琵琶腿"),
+	honglalajiao("honglalajiao", "", "红的辣的辣椒"),
 	
 	
 	

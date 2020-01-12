@@ -81,6 +81,17 @@ public class Dish {
 	public void setMaterial(Material[] material) {
 		this.material = material;
 	}
+	/**
+	 * 
+	 * @param name
+	 * @param howSpicy
+	 * @param howFat
+	 * @param dishQuantity
+	 * @param whichMeal
+	 * @param receipe
+	 * @param materials
+	 * @param sides
+	 */
 	public Dish(String name, Integer howSpicy, Integer howFat, int dishQuantity, int whichMeal, 
 			String receipe, Material[] materials, String[] sides) {
 		super();
