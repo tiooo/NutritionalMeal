@@ -84,13 +84,15 @@ public class Dish {
 	/**
 	 * 
 	 * @param name
-	 * @param howSpicy
-	 * @param howFat
-	 * @param dishQuantity
-	 * @param whichMeal
-	 * @param receipe
-	 * @param materials
-	 * @param sides
+	 * @param howSpicy 辣度 1~10, 1为不辣,10为最辣
+	 * @param howFat 易肥胖程度  1~10, 1为不胖,10为非常容易胖
+	 * @param dishQuantity 菜量 表示这个菜的分量，一般是1，但比如饺子，或者一锅炖菜这样的大菜，值就是2，基本上一顿饭一个菜就好了量
+	 * @param whichMeal 适合做哪一餐
+ 		早，午，晚，外带
+	     1  1   1    1   哪个适合，哪位就是1，都适合就是 15
+	 * @param receipe 菜谱
+	 * @param materials 原料
+	 * @param sides 搭配
 	 */
 	public Dish(String name, Integer howSpicy, Integer howFat, int dishQuantity, int whichMeal, 
 			String receipe, Material[] materials, String[] sides) {

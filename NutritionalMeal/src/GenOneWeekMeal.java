@@ -380,7 +380,8 @@ public class GenOneWeekMeal {
 //		allDishes.put(template.getName(), template);
 		// 西红柿炒鸡蛋
 		Dish xihongshijidan = new Dish("西红柿炒鸡蛋", 0, 3, 1, 7, 
-				"打鸡蛋加盐,西红柿切瓣,先加葱花炒鸡蛋,炒成8成熟倒出,再炒西红柿,出汁后放入鸡蛋同炒,放盐和糖",
+				"西红柿煮水去皮，切成块。 鸡蛋不加盐打散， 热锅放猪油或者植物油，鸡蛋炒散，为了更好吸收西红柿的味道，可以"
+				+ "炒的老一点。热锅入油，加入少量蒜末和较多的葱末，入西红柿炒40秒。出水后放鸡蛋，翻炒均匀，放盐，糖，葱花，一点酱油炒匀即可",
 				new Material[] {new Material(Food.jidan,4), new Material(Food.xihongshi,3), new Material(Food.xiaocong,1)},
 				new String[] {"白米饭"});
 		allDishes.put(xihongshijidan.getName(), xihongshijidan);
@@ -640,9 +641,8 @@ public class GenOneWeekMeal {
 		allDishes.put(rouchaomuer.getName(), rouchaomuer);
 		// 辣子鸡
 		Dish laziji = new Dish("辣子鸡", 7, 6, 1, 6,
-				"仔公鸡半只,去除内脏,洗净,擦干。剁成1cm左右备用。加入盐5g,胡椒粉,料酒3g,生抽酱油3g,加入鸡蛋黄一个。搅拌均匀,加入3g淀粉,加10g植物油拌匀。姜30g大蒜20g小葱20g切碎"
-				+ "七星椒,子弹头,灯笼椒,各30g,青花椒30g。起锅前撒料：1.花生米40g,熟芝麻10g。花椒油5g,香油10g。锅烧热,宽油7热,加入鸡块。炸1分钟。捞出。在加热刀8成热,下入鸡肉炸至酥脆"
-				+ "捞出。加入菜籽油,青花椒,干辣椒,蒜末姜末小葱。爆香。再加入鸡肉。炒2分钟。加入少许白糖提鲜,香醋,加入油酥花生米和芝麻,调料油和盐翻炒均匀", 
+				"8 个鸡腿去骨，改花刀成鸡球。放入酱油，盐，料酒，胡椒粉拌匀， 加淀粉拌匀。加油和香油封。 20分钟后下锅炸2~3次，外脆里嫩。 起锅加油，香油。 加花椒慢炒香，加入较多辣椒。 放入鸡块"
+				+ "炒匀， 加入盐，糖，料酒，酱油，小葱和蒜片翻匀就可以", 
 				new Material[] {new Material(Food.ji, 1), new Material(Food.jidan, 1),new Material(Food.suan, 1), new Material(Food.jiang, 1),
 						new Material(Food.xiaocong, 1), new Material(Food.ganlajiao, 1),new Material(Food.qinghuajiao, 1), new Material(Food.huasheng, 1),
 						new Material(Food.zhima, 1), new Material(Food.huajiaoyou, 1),new Material(Food.xiangyou, 1)},
@@ -707,6 +707,14 @@ public class GenOneWeekMeal {
 				+ "下盐，酱油。放新疆线辣椒。煮一会后放土豆 出锅前蒜拍好，斩一下。等汤汁粘稠后，下葱，蒜，青辣椒"
 				, new Material[] {new Material(Food.pipatui, 2), new Material(Food.tudou, 3), new Material(Food.honglalajiao, 1), new Material(Food.qingjiao, 1)},new String[] {""});
 		allDishes.put(dapanji.getName(), dapanji);
+		// 炸鸡
+		Dish zhaji = new Dish("炸鸡", 0, 8, 1, 7, "鸡腿或者鸡翅，拌入调料和面粉，把鸡肉和面衣捏紧，油温6成热放进去盖盖炸19分钟", new Material[] {new Material(Food.ji, 1)},new String[] {""});
+		allDishes.put(zhaji.getName(), zhaji);
+		
+		// 烧卖
+		Dish shaomai = new Dish("烧卖", 0, 4, 1, 15,"羊肉，瘦8，2肥， 一斤肉，0.7斤大葱白，加入打碎的姜，胡椒粉，十三香，老抽，芝麻油，盐, 味精. 蒸15分钟", new Material[] {new Material(Food.yangrou, 1), new Material(Food.dacong, 1)},new String[] {""});
+		allDishes.put(shaomai.getName(), shaomai);
+		
 		// template
 //		Dish template = new Dish("", 0, 1, 1, 15,"", new Material[] {new Material(Food.wuhuarou, 1)},new String[] {""});
 //		allDishes.put(template.getName(), template);
